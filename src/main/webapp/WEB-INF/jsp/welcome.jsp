@@ -15,7 +15,7 @@
 
 <div class="container-fluid">
     <div class="container xd-container">
-        <h2><fmt:message key="welcome 7.0.4"/></h2>
+        <h2><fmt:message key="welcome 7.0.6"/></h2>
         <div class="row">
             <div class="col-md-12">
                 <spring:url value="/resources/images/pets.png" htmlEscape="true" var="petsImage"/>

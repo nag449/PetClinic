@@ -272,6 +272,13 @@
             <artifactId>json-simple</artifactId>
         </dependency>
     </dependencies>
+    <distributionManagement>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>sample-repo</name>
+            <url>http://104.196.112.173:8081/artifactory/sample-repo</url>
+         </snapshotRepository>
+     </distributionManagement>
 
     <!-- Maven plugin versions are mentioned in order to guarantee the build reproducibility in the long term -->
     <build>
@@ -453,6 +460,8 @@
                     </plugin>
                 </plugins>
             </build>
+            
+            
         </profile>
    </profiles>
 

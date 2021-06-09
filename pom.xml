@@ -315,7 +315,7 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>2.3</version>
                 <configuration>
-                    <warName>petclinic</warName>
+                    <warName>petclinic-${project.version}_${maven.build.timestamp}</warName>
                 </configuration>
             </plugin>
             <plugin>

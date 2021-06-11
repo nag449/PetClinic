@@ -40,10 +40,8 @@
         <dandelion.datatables.version>1.1.0</dandelion.datatables.version>
 
         <cobertura.version>2.7</cobertura.version>
-        <properties>
-            <timestamp>${maven.build.timestamp}</timestamp>
-            <maven.build.timestamp.format>yyyy-MM-dd HH:mm</maven.build.timestamp.format>
-        </properties>
+        <timestamp>${maven.build.timestamp}</timestamp>
+        <maven.build.timestamp.format>yyyy-MM-dd HH:mm</maven.build.timestamp.format>
 
     </properties>
 

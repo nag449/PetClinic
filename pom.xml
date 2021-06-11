@@ -45,18 +45,7 @@
 
     </properties>
     
-    <distributionManagement>
-        <repository>
-            <id>central</id>
-            <name>repouser</name>
-            <url>http://104.196.112.173:8081/artifactory/sample-repo</url>
-        </repository>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>repouser</name>
-            <url>http://104.196.112.173:8081/artifactory/sample-repo</url>
-        </snapshotRepository>
-    </distributionManagement>
+  
 
     <dependencyManagement>
         <!-- Import the maven Spring IO Platform Bill Of Materials (BOM) -->

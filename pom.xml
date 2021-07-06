@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.springframework.samples</groupId>
     <artifactId>spring-petclinic</artifactId>
-    <version>Petclinic-SNAPSHOT</version>
+    <version>4.2.6-SNAPSHOT</version>
 
     <name>petclinic</name>
     <packaging>war</packaging>
@@ -40,11 +40,8 @@
         <dandelion.datatables.version>1.1.0</dandelion.datatables.version>
 
         <cobertura.version>2.7</cobertura.version>
-        
 
     </properties>
-    
-  
 
     <dependencyManagement>
         <!-- Import the maven Spring IO Platform Bill Of Materials (BOM) -->
@@ -318,7 +315,7 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>2.3</version>
                 <configuration>
-                    <warName>petclinic-${build.number}-${maven.build.timestamp}</warName>
+                    <warName>petclinic</warName>
                 </configuration>
             </plugin>
             <plugin>
@@ -456,8 +453,6 @@
                     </plugin>
                 </plugins>
             </build>
-            
-            
         </profile>
    </profiles>
 
